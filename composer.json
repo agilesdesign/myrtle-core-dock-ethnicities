@@ -1,0 +1,20 @@
+{
+    "name": "agilesdesign/myrtle-core-dock-ethnicities",
+    "description": "Core Ethnicities Dock for Myrtle WMS",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Justin Seliga",
+            "email": "jseliga@agilesdesign.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+        	"src/database",
+            "src/Myrtle/Core/Docks"
+        ],
+        "psr-4": {
+            "Myrtle\\Core\\Ethnicities\\": "src/Ethnicities"
+        }
+    }
+}
