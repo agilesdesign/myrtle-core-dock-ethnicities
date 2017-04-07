@@ -41,8 +41,8 @@ class EthnicitiesDock extends Dock
     public function configPaths()
     {
         return [
-            'docks.' . self::class => dirname(__DIR__, 2) . '/config/docks/ethnicities.php',
-            'abilities' => dirname(__DIR__, 2) . '/config/abilities.php',
+            'docks.' . self::class => dirname(__DIR__, 3) . '/config/docks/ethnicities.php',
+            'abilities' => dirname(__DIR__, 3) . '/config/abilities.php',
         ];
     }
 
@@ -54,7 +54,7 @@ class EthnicitiesDock extends Dock
     public function migrationPaths()
     {
         return [
-            dirname(__DIR__, 2) . '/database/migrations',
+            dirname(__DIR__, 3) . '/database/migrations',
         ];
     }
 
@@ -66,7 +66,7 @@ class EthnicitiesDock extends Dock
     public function routes()
     {
         return [
-            'admin' => dirname(__DIR__, 2) . '/routes/admin.php',
+            'admin' => dirname(__DIR__, 3) . '/routes/admin.php',
         ];
     }
 }
